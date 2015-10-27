@@ -569,6 +569,7 @@ Mana.prototype.send = function send(args) {
   options.strictSSL = 'strictSSL' in args.options ? args.options.strictSSL : this.strictSSL;
   options.headers = 'headers' in args.options ? args.options.headers : {};
   options.maxSockets = 'maxSockets' in args.options ? args.options.maxSockets : this.maxSockets;
+  options.gzip = true;
 
   //
   // Remark: We want to ensure this can be not set at all
