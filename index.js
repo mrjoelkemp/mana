@@ -832,6 +832,8 @@ Mana.prototype.send = function send(args) {
           err.ratereset = mana.ratereset; // Rate reset.
           err.ratelimit = mana.ratelimit; // Rate limit.
 
+          mana.debug('404 error for URL %s', options.uri);
+
           return assign.destroy(err);
         }
 
