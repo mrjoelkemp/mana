@@ -2,7 +2,7 @@
 
 var EventEmitter = require('eventemitter3')
   , diagnostics = require('diagnostics')
-  , request = require('request')
+  , request = require('requestretry')
   , qs = require('querystring')
   , ms = require('millisecond')
   , Assign = require('assign')

@@ -30,10 +30,10 @@
     "assign": ">=0.1.7",
     "back": "0.1.x",
     "diagnostics": "0.0.x",
+    "eventemitter3": "0.1.x",
     "fusing": "0.3.x",
     "millisecond": "0.0.x",
-    "request": "2.x.x",
-    "eventemitter3": "0.1.x"
+    "requestretry": "~1.6.0"
   },
   "devDependencies": {
     "assume": "1.2.x",
